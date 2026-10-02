@@ -27,11 +27,11 @@
                 android:src="@drawable/doomsday" />
 
             <EditText
-                android:textSize="15dp"
                 android:layout_width="90dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center_horizontal"
                 android:text="Avengers Doomsday - december 2026"
+                android:textSize="15dp"
 
 
         </LinearLayout>
@@ -54,14 +54,96 @@
                 android:src="@drawable/img_1" />
 
             <EditText
-                android:textSize="15dp"
                 android:layout_width="90dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center_horizontal"
-                android:text="Ayrton  Senna"
+                android:text="Ayrton Senna - Netflix 2025"
+                android:textSize="15dp"
 
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:contentPadding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/odisseia" />
+
+            <EditText
+                android:layout_width="90dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Odisseia - 2026"
+                android:textSize="15dp"
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:contentPadding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/michae" />
+
+            <EditText
+                android:layout_width="90dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Michael Jackson - 2026"
+                android:textSize="15dp"
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:contentPadding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/michae" />
+
+            <EditText
+                android:layout_width="90dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Michael Jackson - 2026"
+                android:textSize="15dp"
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
